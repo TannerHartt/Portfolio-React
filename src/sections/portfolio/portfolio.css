@@ -6,7 +6,7 @@
     align-items: start;
 }
 
-.portfoio__project-image {
+.portfolio__project-image {
     width: 100%;
     height: fit-content;
     min-height: 7rem;
@@ -33,11 +33,12 @@
     cursor: pointer;
 }
 
-.portfolio_project:hover  .btn.sm {
+.portfolio_project:hover .btn.sm {
     border-color: var(--color-white);
 }
 
-.portfolio_project:hover  .btn.sm.primary {
+
+.portfolio_project:hover .btn.sm.primary {
     background: transparent;
     color: var(--color-primary);
     border-color: var(--color-primary);
